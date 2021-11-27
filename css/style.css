@@ -1,0 +1,53 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Utils*/
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*HEADER*/
+
+.header-top{
+    background-color: black;
+    height: 60px;
+    color: white;
+    text-align: right;
+}
+
+.speaker-view a{
+    text-decoration: none;
+    color: white;
+    background-color: #4A4A4A;
+    font-size: 12px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.speaker-view a::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00a";
+    padding-right: 4px;
+}
+
+.speaker-view i{
+    padding-left: 2px;
+    background-color: #4A4A4A;
+    font-size: 12px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin-right: 2px;
+    margin-top: 4px;
+}
+/*MAIN*/
