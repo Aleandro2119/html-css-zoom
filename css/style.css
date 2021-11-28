@@ -11,7 +11,7 @@ body{
 
 /*Utils*/
 .container{
-    width: 1200px;
+    width: 1400px;
     margin: 0 auto;
 }
 
@@ -50,4 +50,35 @@ body{
     margin-right: 2px;
     margin-top: 4px;
 }
+
 /*MAIN*/
+.central-main{
+    background-color: black;
+    height: 800px;
+}
+
+.flexed{
+    display: flex;
+    flex-direction: row;
+}
+
+.images{
+    background-image: url("../img/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 120px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.images p{
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
